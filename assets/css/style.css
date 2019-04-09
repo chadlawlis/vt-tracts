@@ -1,0 +1,91 @@
+body {
+  color: #222;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  shape-rendering: crispEdges;
+  stroke: #999;
+  stroke-width: 1px;
+}
+
+.axis text {
+  fill: #999;
+  font-size: 0.8em;
+}
+
+.chart {
+  float: right;
+  margin: 7px 20px 0 0 ;
+}
+
+.chartTitle,
+.mapTitle {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.chartBackground {
+  /* equivalent to #eee @ 20% */
+  fill: rgba(238, 238, 238, 0.2);
+}
+
+.chartFrame {
+  fill: none;
+  shape-rendering: crispEdges;
+  stroke: #999;
+  stroke-width: 2px;
+}
+
+.dropdown {
+  border: 2px solid #999;
+  box-shadow: 2px 2px 4px #999;
+  color: #222;
+  font-size: 1em;
+  font-weight: bold;
+  left: 40px;
+  padding: 2px;
+  position: absolute;
+  top: 80px;
+  z-index: 10;
+}
+
+.infolabel {
+  background: #333;
+  border: solid thin #eee;
+  border-radius: 4px;
+  box-shadow: 4px 4px 8px rgba(51, 51, 51, 0.4);
+  color: #eee;
+  height: 80px;
+  min-width: 70px;
+  padding: 5px 10px;
+  position: absolute;
+}
+
+.infolabel h1 {
+  display: inline-block;
+  line-height: 1em;
+  margin: 2px 0 5px 0;
+  padding: 0;
+}
+
+.map {
+  /* fallback background precedes background */
+  background: white;
+  /* equivalent to #eee @ 20% */
+  background: rgba(238, 238, 238, 0.2);
+  border: 2px solid #999;
+  margin: 56px 0 0 20px;
+}
+
+.option {
+  font-weight: normal;
+}
+
+.tract {
+  stroke: #eee;
+  stroke-linecap: round;
+  stroke-width: 0.5px;
+}
