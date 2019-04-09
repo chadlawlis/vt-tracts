@@ -100,8 +100,8 @@
       .projection(projection); // pass the projection generator to the .projection() operator of the path generator; "path" variable now holds the path generator
 
     var promises = [];
-    promises.push(d3.csv('../assets/data/vt_007_tract_2017_attr.csv'));
-    promises.push(d3.json('../assets/data/vt_007_tract_2017.topojson'));
+    promises.push(d3.csv('assets/data/vt_007_tract_2017_attr.csv'));
+    promises.push(d3.json('assets/data/vt_007_tract_2017.topojson'));
 
     Promise.all(promises).then(function (values) {
       var tractData = values[0];
